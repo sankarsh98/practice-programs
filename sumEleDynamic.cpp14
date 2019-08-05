@@ -1,0 +1,17 @@
+#include <iostream>
+#include<cstdio>
+using namespace std;
+
+int sum(){
+    int a,s=0;
+    //while(cin>>a) s+=a;
+    while(scanf("%d",&a)!=EOF) s+=a;
+    return s;
+}
+
+int main()
+{
+    cout<<sum();
+    return 0;
+}
+
