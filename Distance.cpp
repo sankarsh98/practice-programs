@@ -1,5 +1,5 @@
 #include <iostream>
-#include<math.h>
+ #include<math.h>
 using namespace std;
 
 float dis(int a,int b,int c,int d){
